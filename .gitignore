@@ -1,0 +1,54 @@
+# ============================
+# Vivado / FPGA build files
+# ============================
+*.jou
+*.log
+*.str
+*.zip
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/
+*.xpr
+*.xsa
+*.dcp
+*.rpt
+*.html
+*.xml
+
+# Vivado-generated project folders
+**/project_*/ 
+**/*.sdk/
+**/.Xil/
+
+# ============================
+# NEORV32 / RISC-V toolchain
+# ============================
+*.elf
+*.bin
+*.hex
+*.map
+*.o
+*.a
+*.out
+
+# ============================
+# Build artifacts
+# ============================
+build/
+obj/
+*.exe
+
+# ============================
+# Python utilities
+# ============================
+__pycache__/
+*.pyc
+
+# ============================
+# OS files
+# ============================
+.DS_Store
+Thumbs.db
