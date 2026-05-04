@@ -1,1 +1,0 @@
-# risc-v-soc-ai-accelerator
